@@ -19,7 +19,7 @@ describe("Login", () => {
 
         cy.get('[data-test="error"]').should('contain.text', 'Username and password do not match any user in this service')
 
-        cy.url().should('eq', "https://www.saucedemo.com")
+        cy.url().should('eq', "https://www.saucedemo.com/")
     })
 })
 
